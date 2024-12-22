@@ -5,11 +5,11 @@ export const metadata = {
   description: "One stop shop for all your clothing items",
 };
 
-export default function RootLayout({ children }) {
+export default function AppLayout({ children }) {
   return (
     <html lang="en">
       <body>
-        <main className="container mx-auto p-6">{children}</main>
+        <main className="">{children}</main>
       </body>
     </html>
   );
